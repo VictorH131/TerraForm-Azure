@@ -1,7 +1,7 @@
- services:
+services:
   app:
     build: .
-    image: victorhs131/app-docker-aula:latest
+    image: victorhs131/mural-flask:latest
     ports:
       - "8081:5000"
     environment:
@@ -27,3 +27,6 @@
 
 volumes:
   dados_mariadb:
+
+
+
